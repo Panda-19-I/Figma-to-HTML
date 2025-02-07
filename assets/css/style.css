@@ -205,3 +205,165 @@ a {
 .hero .stats {
   margin-top: 2px;
 }
+
+/* ===========================Courses=========================== */
+
+.course-body {
+  margin: 100px 0px;
+}
+
+.course-body .courses-heading {
+  color: #171100;
+  font-family: "Sen", serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.26; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+
+.course-body .courses-disc {
+  color: #5f5b53;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 24px;
+  width: 458px;
+  height: 60px;
+}
+
+.course-body .courses-card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+.courses-card .item {
+  width: 370px;
+  height: 466px;
+  border-radius: 10px;
+  background-color: #fbfbf9;
+}
+
+.courses-card .item .main-pic {
+  width: 100%;
+  height: 278px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.item-infor {
+  padding: 22px;
+}
+.item-infor h1 {
+  color: #171100;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.66; /* 166.667% */
+}
+
+.line1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating {
+  display: flex;
+}
+
+.rating img {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.rating p {
+  color: #fea31b;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.item-infor .disc {
+  color: #5f5b53;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+}
+
+.item-infor .line2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-infor .courses-btn:hover {
+  background-color: #ffb900;
+}
+
+/* ===========================Comment=========================== */
+
+.cmt-body {
+  display: flex;
+  margin: 0px;
+  width: 100%;
+  height: 380px;
+  flex-shrink: 0;
+  background: #2e2100;
+}
+
+.people img {
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+}
+
+.cmt-heading {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  width: 35%;
+  justify-content: center;
+  align-items: center;
+}
+
+.people .name {
+  color: #f7f7f7;
+  font-family: "Sen", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.41; /* 141.667% */
+}
+
+.people p {
+  color: #bfbcb2;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+}
+
+.cmt-text p {
+  color: #fff;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.53; /* 153.846% */
+  margin-top: 130px;
+  margin-left: 30px;
+}
+
+.cmt-text {
+  position: relative;
+  width: 740px;
+}
+
+.cmt-text img {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+}
