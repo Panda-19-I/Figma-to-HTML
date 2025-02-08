@@ -367,3 +367,62 @@ a {
   top: 100px;
   left: 0px;
 }
+
+/* ===========================Feature=========================== */
+
+.fea-body {
+  margin: 100px 0px;
+  display: flex;
+}
+
+.fea-body .fea-img {
+  width: 50%;
+  height: 438px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fea-body .fea-img img {
+  width: 270px;
+  height: 405px;
+  margin-right: 20px;
+  align-self: flex-end;
+}
+
+.fea-body .fea-img img:nth-child(2) {
+  margin-right: 0px;
+  align-self: flex-start;
+}
+
+.fea-body .fea-text {
+  width: 50%;
+  padding-left: 100px;
+}
+
+.fea-text h1 {
+  color: #171100;
+  font-family: "Sen", serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.26; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+
+.fea-text p {
+  color: #5f5b53;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+  width: 458px;
+}
+
+.fea-text p + p {
+  margin-top: 16px;
+}
+
+.fea-text .fea-btn {
+  margin: 43px 0px;
+  background-color: #ffb900;
+}
